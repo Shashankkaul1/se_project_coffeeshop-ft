@@ -134,14 +134,19 @@ margin-left: 80px;
 margin-bottom: 80px;
 }
 
-.recipe__video-caption{
+.recipe-video-caption__step{
   color: #ffffff ;
   font-family: "Inter";
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 30px;
-
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 215px;
+  width: 480px;
 }
 ul {
   list-style-type: none;
@@ -171,15 +176,7 @@ ul {
   width: 480px;
    height: 273px;
  }
- .recipe__video-caption{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 215px;
-  width: 480px;
 
- }
 
 /* Write your styles here */
 
